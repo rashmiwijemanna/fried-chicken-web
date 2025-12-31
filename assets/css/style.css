@@ -93,3 +93,38 @@ img {
   height: auto;
 }
 
+.container {
+  max-width: 1120px;
+  margin-inline: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section {
+  padding-block: 5rem 1rem;
+}
+
+.section__title, 
+.section__subtitle {
+  text-align: center;
+  font-family: var(--second-font);
+}
+
+.section__title {
+  font-size: var(--big-font-size);
+  margin-bottom: 1rem;
+}
+
+.section__subtitle {
+  display: block;
+  font-size: var(--h2-font-size);
+  margin-bottom: .25rem;
+}
+
+.main {
+  overflow: hidden;
+}
+
