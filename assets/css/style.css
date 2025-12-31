@@ -174,7 +174,7 @@ img {
     .nav__menu{
         position: fixed;
         top: 0;
-        right: 0;
+        right: -100%;
         background-color: var(--first-color);
         width: 80%;
         height: 100%;
@@ -183,4 +183,27 @@ img {
         transition: right .4s;
     }
     
+}
+
+.nav__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3.5rem;
+}
+
+.nav__link{
+    color: var(--black-color);
+    font-family: var(--second-font);
+    transition: color .4s;
+}
+
+.nav__link:hover{
+    color: var(--white-color);
+}
+
+.nav__close{
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+
 }
