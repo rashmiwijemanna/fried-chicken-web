@@ -211,3 +211,12 @@ img {
 .show-menu{
     right: 0;
 }
+
+.home{
+    background-color: var(--first-color);
+}
+
+.home__container{
+    padding-block: 4rem 1rem;
+    row-gap: 3rem;
+}
