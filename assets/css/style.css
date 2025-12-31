@@ -145,3 +145,27 @@ img {
     justify-content: space-between;
     align-items: center;
 }
+
+.nav__logo{
+    display: inline-flex;
+    align-items: center;
+    column-gap: .25rem;
+}
+
+.nav__logo img{
+    width: 1.5rem; 
+
+}
+
+.nav__logo span{
+    color: var(--black-color);
+    font-weight: var(--font-semi-bold);
+}
+
+.nav__toggle,
+.nav__close{
+    display: inline-flex;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
