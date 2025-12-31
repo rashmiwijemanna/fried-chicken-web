@@ -220,3 +220,67 @@ img {
     padding-block: 4rem 1rem;
     row-gap: 3rem;
 }
+
+.home__date{
+    position: relative;
+    text-align: center;
+}
+
+.home__title{
+    font-size: var(--bigger-font-size);
+    margin-bottom: .5rem;
+}
+
+.home__title span{
+    color: var(--white-color);
+}
+
+.home__description{
+    margin-bottom: 2rem;
+}
+.home__dam-1,
+.home__dam-2,
+.home__dam-3,
+.home__dam-4,
+.home__dam-5{
+    position: absolute;
+}
+
+.home__dam-1{
+    width: 60px;
+    top: 4.5rem;
+    right: -1.5rem;
+}
+
+.home__dam-2{
+    width: 80px;
+    top: -3.5rem;
+    left: -2.5rem;
+}
+.home__images{
+    position: relative;
+    justify-self: center;
+}
+
+.home__img{
+    width: 280px;
+    /* justify-self: center; */
+    filter: var(--shadow-img);
+}
+
+
+
+.button{
+    display: inline-flex;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 1rem 2rem;
+    font-weight: var(--font-semi-bold);
+    border-radius: .75rem;
+    transition: box-shadow .4s;
+
+}
+
+.button:hover{
+    box-shadow: 0 8px 24px hsla(0, 0%, 0%, .2);
+}
