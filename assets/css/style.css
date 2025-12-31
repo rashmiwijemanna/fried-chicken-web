@@ -54,3 +54,22 @@
 html {
   scroll-behavior: smooth;
 }
+
+body,
+input,
+button {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--black-color);
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}
+
