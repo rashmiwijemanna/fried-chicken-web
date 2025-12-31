@@ -306,3 +306,13 @@ img {
 .button:hover{
     box-shadow: 0 8px 24px hsla(0, 0%, 0%, .2);
 }
+
+.about{
+    background-color: var(--first-color);
+
+}
+
+.about__container{
+    padding-bottom: 3rem;
+    row-gap: 9rem;
+}
