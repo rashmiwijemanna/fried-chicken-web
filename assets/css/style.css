@@ -372,3 +372,27 @@ img {
     bottom: 3rem;
     z-index: 10;
 }
+
+.about__tooltip-1::after,
+.about__tooltip-2::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    rotate: 45deg;
+    border-radius: .25rem;
+    background-color: red;
+}
+
+.about__tooltip-1::after{
+    right: -8px;
+    background-color: var(--white-color);
+}
+
+.about__tooltip-2::after{
+    left: -8px;
+    background-color: var(--black-color);
+}
