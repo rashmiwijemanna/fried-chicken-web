@@ -316,3 +316,36 @@ img {
     padding-bottom: 3rem;
     row-gap: 9rem;
 }
+
+.about__date{
+    text-align: center;
+}
+
+.about__date .section__subtitle{
+    color: var(--white-color);
+}
+
+.about__description{
+    margin-bottom: 2rem;
+}
+
+.about_images{
+    position: relative;
+    justify-self: center;
+    margin-right: 2rem;
+}
+
+.about__img-1{
+    width: 280px;
+    position: relative;
+    z-index: 10;
+    filter: var(--shadow-img);
+}
+
+.about__img-2{
+    width: 210px;
+    position: absolute;
+    top: -6.5rem;
+    right: -2rem;
+    filter: var(--shadow-img);
+}
