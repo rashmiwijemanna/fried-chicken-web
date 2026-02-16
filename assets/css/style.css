@@ -396,3 +396,48 @@ img {
     left: -8px;
     background-color: var(--black-color);
 }
+
+.order .section__title span{
+    color: var(--first-color);
+}
+
+.order__container{
+    padding-block: 1.5rem 3rem;
+    
+}
+.order__card{
+    position: relative;
+    display: grid;
+}
+
+.order__img-1{
+    width: 190px;
+    filter: var(--shadow-img);
+    
+}
+
+.order__img-2{
+    width: 250px;
+    justify-self: flex-end;
+    filter: var(--shadow-img);
+}
+
+.order__shape-1,
+.order__shape-2{
+    background-color: var(--first-color);
+    border-radius: 1rem;
+    align-self: center;
+    position: absolute;
+}
+.order__shape-1{
+    width: 180px;
+    height: 100px;
+    left: -3rem;
+}
+
+.order__shape-2{
+    width: 180px;
+    height: 140px;
+    right: -3rem;
+}
+
